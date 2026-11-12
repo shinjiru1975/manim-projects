@@ -1,0 +1,7 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/scene3/1080p60/partial_movie_files/Scene3Attempt4/2c4fb758a522fb0ef3b6c1f679c6f535e2598ef62295bb5cfd69abd4a264315c.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/scene3/1080p60/partial_movie_files/Scene3Attempt4/58956f3ff34b42e23ee36361cf3401992d85faf8cb5421077976349279e0047e.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/scene3/1080p60/partial_movie_files/Scene3Attempt4/58e64e624188a5e12969506d493c5937e6bef3027e50bade04618348750d6f89.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/scene3/1080p60/partial_movie_files/Scene3Attempt4/cbfa3dbccca6db086888114dc5eb239406fcc7a714359dd6cc11288a9d8e2f07.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/scene3/1080p60/partial_movie_files/Scene3Attempt4/a7f137f6cc91d0362d0cba73882c18df4d227fa0b2e222c7e43864b7a735ba7a.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/scene3/1080p60/partial_movie_files/Scene3Attempt4/fa2482f43d32b1039031f5bf0dd1f918adca0c4d34b0680ae1052d1b727c6927.mp4'

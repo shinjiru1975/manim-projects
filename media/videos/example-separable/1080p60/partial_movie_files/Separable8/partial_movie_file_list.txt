@@ -1,0 +1,9 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/cb42af16be3233b84c68446691ef3420d65e23b48b1c1bacc7b74f9294e54d1b.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/9030c665d9f5de6c7ffc3629c5af364dbf7bc31d7a4f883439669c68c6300761.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/f01f6ca0c137006e0dca22ba457dc5f3d962a09df03eb14f76bb608e4c8d175f.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/00861148aefe480420d2fa4142bc11c9b270cab08dea86c61bd4f21253604fa9.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/2e46cf36937816d99c44a082e51e54e337edd18e326b242f20357883f0c64108.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/3cf0e2162fdc09109ea833c8741cebf1e80c4bf5f1468373ef5cd6e143029639.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/a7afca3d227342c73dd05a413c4fa0124d0d924310bdcab62b11192fa4133b51.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable8/89f5c19befec1542689e8250bc0592ad1035e3978cb027eb112daa297a2e740b.mp4'

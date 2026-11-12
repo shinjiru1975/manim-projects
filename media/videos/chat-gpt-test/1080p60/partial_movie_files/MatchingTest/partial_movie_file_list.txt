@@ -1,0 +1,4 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/media/videos/chat-gpt-test/1080p60/partial_movie_files/MatchingTest/be1ed1260b69635a7d95371827b7e4dbbf52c74e4ca645185214f3e54d7ba78c.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/chat-gpt-test/1080p60/partial_movie_files/MatchingTest/0067ab3b6da2db81d6aa1ae007cb5d743970a131b3df0db6b61e25c63eb3b445.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/chat-gpt-test/1080p60/partial_movie_files/MatchingTest/fcd01cd9b87c0897095afcb82162666a4ba6e785d1a6bd1716c39141af2deb3d.mp4'

@@ -1,0 +1,5 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/media/videos/first-manim/1080p60/partial_movie_files/Test/b71ad965cb35edddcbd0e9f6b2a75fe357bd05332dd2f21b867f14f7f9f0fec1.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/first-manim/1080p60/partial_movie_files/Test/b4c9e9fea017e5b95c8d63b6f05b6cc4a3316d1f95f948549865eb7ad4ad6f48.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/first-manim/1080p60/partial_movie_files/Test/46cd8fbeb5328d12fe1b5852dccf2377ac7dfb897099b935c6e65fa2f20701af.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/first-manim/1080p60/partial_movie_files/Test/c95b55c42a1c5435575908818ede5fb2fd5df13f900761bed2bc75cd9145ba22.mp4'

@@ -1,0 +1,2 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/media/videos/chat-gpt-test/1080p60/partial_movie_files/DiagnoseTex/2a8a0a097d01beb3a7c9ac56c1d79ec328b8c4cedd18375b66c99b851a21e007.mp4'

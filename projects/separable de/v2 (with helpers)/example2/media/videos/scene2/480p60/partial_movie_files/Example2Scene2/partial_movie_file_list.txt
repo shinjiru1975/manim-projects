@@ -1,0 +1,10 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/d1533e478c995030874abd69a2ed98146f5434120d8c66e8449efb059d2ef322.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/7762f5651cff4ebf14c549ce98feb79352bd14d19bd441327acc784e008b4468.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/3617b415891bc038bbd0ff7b15dd585d24e7c6800287de0008bda228e72b9ae0.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/c17cfd3b25fd5d0cd9b839b94c2df04bc9aa0036b7e973b08dc6f91d21ed2361.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/c6add83a66ae86ade7e1bf58a18d2e0d163663cef38dfa42d78b89c0164dc34b.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/50579b6027fc89f839fc79f8f0f7cef29b5ff33c0c4a999c9a3d7efb020f1e9f.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/d0273446aff1766ffa8472a1def7538d5dfa864e86eb3caebc872e0bd80bc046.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/4d99f43ae44fd91e666d572d09169365d6bed1c42fae190e0aacf1fa2d931d04.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable_de_v2 (with helpers)/example2/media/videos/scene2/480p60/partial_movie_files/Example2Scene2/e2552495ba7b175d2d9756110b26a971eaa44617c30e7ba099d1fd5410235009.mp4'

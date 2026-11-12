@@ -1,0 +1,5 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/RationalFunctionIndex/c295ea1b549d1219792f8cd784f78ad58f32cd334885332505f24fd977d18ad7.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/RationalFunctionIndex/d614501ec47c93c8378b88f9f321e8d3027d6f12a8a668f812b010ef4508a7f5.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/RationalFunctionIndex/763dcd4f3f0af19e48025a56b8adfb5e2ec8a7d331750a3625fa58bdaa1e8a8b.mp4'
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/RationalFunctionIndex/208354c6030a4e80858ee4f11747dd18bebf44f00c5cfa438f3a000b80e20eff.mp4'

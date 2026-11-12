@@ -1,0 +1,11 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/726c42e04368fc3c03ae9622143b6489e3c07556cf53f5f6862dbb52a3c0a7ee.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/7ffe79b5a9500c99bed0ac72f8f9d1fc86a3cd11b2e766d5a348a2c6bd423109.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/24739ff6892a4b5fe19294912e735165c47a897efa58044a695e322fd87e2d0b.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/0fa25d8e2426066b604cc4e2cc086ebdeee335635631f2c679353254b805709e.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/4fcd029f8a0a27b23d8f2bb69410723ac020feb59416c6d1a56bdd0495b95733.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/3278d386019e6556f3991fb2ec592a1d23ade4a599a0472f16dbfecb6db87fb2.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/59496a9e6f073ad31ea04caa7f503a5476b0bc4dea7210ad6a5255943fbb45bf.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/1ea8550cc142231cc023fae65ec8596ceefd586c77789424d8fe079a6d1ecd07.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/0f44f88f45331f4da8d7be1b765b60c33a013d396619653db936df0e15e95725.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/example-separable-reactive/480p60/partial_movie_files/Separable13/78d802bddaec58be4a1e97c63304a3c22f6c98398bcc0254c2bd8126eb6f8ef1.mp4'

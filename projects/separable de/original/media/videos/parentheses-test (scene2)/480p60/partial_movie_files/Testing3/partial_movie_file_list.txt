@@ -1,0 +1,13 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/fd58f1334b6f31d32da78cd05e1a2fcfceb6cc0fc7e0957801850efa468c77cc.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/a34d9640918da9b1f5af83fb5846393dced137cb7d8db39db97db36d6bebb5b3.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/e5d4b964788b7456eff74ae63c6054a7529447e11020fd2eb1b861113036615a.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/da7f992e5dff3412fde5ecb4619c204663054564069f10eea3d715b652f8b57e.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/d97798e56e08902984a08b2a095675048c34435bb130c2991fe4e8701481314f.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/9cc2a1a4bfdda0ceb66b8feccc2f4e875898923f3a976d48d961cc3d84ea62f8.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/bb131c4e20a03ac5dd9e2edad8c56cb0295e8ffeaf5d4eb337655af2869ac93c.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/2250e75903cc0420f61681a4b193f7f4758d817b494389bba28c5802df71c80b.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/dc50fb8d779c38b32950b11e7b5a40d911cad661e61dcf07e47e170f7c1608bd.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/5ad5dce59d36502f5c948cceb90375bc139841dc520c8b90fac1cf951057a0c4.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/ba3c5153c0720196d09fb5f86cfab7cce758edd5ddcd9f6a11ebdf4ff251c05c.mp4'
+file 'file:c:/Users/Kamote/manimations/projects/separable de/media/videos/parentheses-test (scene2)/480p60/partial_movie_files/Testing3/7711f09dada4f43c0c7beb007e8d9343f15dd6be6dc72393942b06e2ddada3c8.mp4'

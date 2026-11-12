@@ -1,0 +1,2 @@
+# This file records the segment order used by Manim.
+file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable4/97b854594ee054544a842d698e9b2c6698001696dfd8e9e600061068cd2b3f91.mp4'
