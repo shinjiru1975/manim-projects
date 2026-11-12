@@ -1,19 +1,11 @@
-"""
-Example 1, Scene 2:  "chakalimination" -> separate -> integrate -> general solution
-(was e1-s2.py / class Testing4)
-
-Starts from the end of Scene 1 (x dy = (1 + y^2) dx already on screen).
-FLAT style. Logic is unchanged from your original; only repeated blocks became helpers.
-"""
-import sys, pathlib
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # project root, so `common` is found
 from manim import *
 from common import *
-from reactive_manim import *   # last, so its MathTex wins (and so VS Code can see these names)
-
+from symbols import *
+from reactive_manim import *   
 
 class Example1Scene2(DEScene):
     def construct(self):
+
         S = Symbols()
         x, y1, yp, eq, wan, p, y2, tu, dy, dx, sp, integ = S.unpack(
             "x y1 yp eq wan p y2 tu dy dx sp integ"
@@ -135,5 +127,7 @@ class Example1Scene2(DEScene):
         ans = MathTex(Term(y1, tu), eq, "C", Term(x, tu), "-", wan)
         i, ans, box = self.reveal_answer(h, [l_int1, eq, r_int1], ans, sp)
         self.caption("general solution", ans, scale=0.7)
+
+        self.clear_all()
 
         self.wait()

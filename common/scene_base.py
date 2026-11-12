@@ -73,21 +73,14 @@ class DEScene(Scene):
         return label
 
     # ---- housekeeping ------------------------------------------------------
+    def clear_all(self, **kw):
+        """Fade out everything on screen."""
+        self.play(*[FadeOut(m) for m in self.mobjects], **{**RT, **kw})
+
     def clear_except(self, *keep, **kw):
         """Fade out everything on screen except the mobjects in `keep`."""
         fade = [m for m in self.mobjects if m not in keep]
         self.play(*[FadeOut(m) for m in fade], **{**RT, **kw})
-
-    def dump(m, name="", depth=0, max_depth=3):
-        pad = "  " * depth
-        keys = sorted(vars(m).keys())
-        track = {k: getattr(m, k) for k in keys
-                if any(s in k.lower() for s in ("track", "id", "key", "tag"))}
-        print(f"{pad}{name} <{type(m).__name__}> obj_id={id(m)} "
-            f"center={m.get_center().round(3)} track={track}")
-        if depth < max_depth:
-            for i, sm in enumerate(m.submobjects):
-                dump(sm, f"[{i}]", depth + 1, max_depth)
 
     # ---- your own `substitute` idea, promoted to a real method ------------
     def substitute(self, old, build, sources, color=None, **kw):
@@ -104,7 +97,6 @@ class DEScene(Scene):
         """
         kw = {**RT, **kw}
         center  = old.get_center().copy()
-
         ghosts  = [phantom(s) for s in sources]
         new_ph  = MathTex(*build(ghosts)).move_to(center)
         targets = [g.get_center().copy() for g in ghosts]
@@ -115,9 +107,6 @@ class DEScene(Scene):
             else f.animate.move_to(t)
             for f, t in zip(fliers, targets)
         ]
-
-        print("OLD first-term parts:", [getattr(a, "original_id", None) for a in old[0].submobjects])
-        print("NEW first-term parts:", [id(b) for b in new_ph[0].submobjects])
         
         self.play(
             TransformInStages.replacement_transform(old, new_ph, **kw),

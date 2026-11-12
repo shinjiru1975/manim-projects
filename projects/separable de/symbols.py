@@ -7,7 +7,7 @@ If they were created once at import time, scene 2 would inherit scene 1's
 leftovers. So: call Symbols() INSIDE construct(), once per scene.
 """
 from manim import *
-from .style import *
+from common import *
 from reactive_manim import *   # keep LAST: its MathTex must win
 
 

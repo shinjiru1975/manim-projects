@@ -1,20 +1,11 @@
-"""
-Example 2, Scene 2:  plug in x=1, y=0 to get C  ->  particular solution
-(was e2-s2.py / class Scene2Attempt4 -- the most complete of your 4 attempts)
-
-Attempts 1-3 are superseded; keep them in git history, not in this file.
-Logic is unchanged from Attempt4; only repeated blocks became helpers.
-FLAT style.
-"""
-import sys, pathlib
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # project root, so `common` is found
 from manim import *
 from common import *
-from reactive_manim import *   # last, so its MathTex wins (and so VS Code can see these names)
-
+from symbols import *
+from reactive_manim import *   
 
 class Example2Scene2(DEScene):
     def construct(self):
+        
         S = Symbols(colored=True)
         x, y1, y2, wan, tu, z, p, mn, eq, dy, dx, sp, C = S.unpack(
             "x y1 y2 wan tu z p mn eq dy dx sp C"

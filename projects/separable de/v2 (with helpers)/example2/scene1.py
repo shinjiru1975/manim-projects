@@ -1,23 +1,11 @@
-"""
-Example 2, Scene 1:  initial-value problem  2x(y+1) dx - y dy = 0,  x=1, y=0
-(was e2-s1.py / class Scene1Attempt2)
-
-STYLE: "flat" -- everything inside construct(), like before, but the repeated
-blocks are now one-liners from common/.  Both styles are fine; use flat for
-short scenes, methods when a scene passes ~60 lines.
-
-Run from the project root:
-    python -m manim -pql example2/scene1.py Example2Scene1
-"""
-import sys, pathlib
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # project root, so `common` is found
 from manim import *
 from common import *
-from reactive_manim import *   # last, so its MathTex wins (and so VS Code can see these names)
-
+from symbols import *
+from reactive_manim import *   
 
 class Example2Scene1(DEScene):
     def construct(self):
+        
         S = Symbols()
         x, y1, y2, wan, tu, z, p, mn, eq, dy, dx, sp, integ = S.unpack(
             "x y1 y2 wan tu z p mn eq dy dx sp integ"
