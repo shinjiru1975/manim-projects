@@ -1,5 +1,5 @@
 # Manim ni Shin
-![Static Badge](https://img.shields.io/badge/Follow-fe2c55?style=for-the-badge&logo=tiktok&label=TikTok&labelColor=black&link=https%3A%2F%2Fwww.tiktok.com%2F%40shinjiru1975)
+[![Static Badge](https://img.shields.io/badge/Follow-fe2c55?style=for-the-badge&logo=tiktok&label=TikTok&labelColor=black)](https://www.tiktok.com/@shinjiru1975)
 
 This project contains the code used in generating the mathematics animation videos by [Shinjiru](https://www.tiktok.com/@shinjiru1975) using [Manim](https://github.com/manimCommunity/manim), a [Phython](https://www.python.org/) library by [3Blue1Brown](https://www.youtube.com/@3blue1brown) for creating beautiful math animations.
 
