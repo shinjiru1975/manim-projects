@@ -5,11 +5,13 @@ This folder contains the helpers I use for groups of animations I use in my proj
 What used to be
 ```python
 # from projects/separable de/original/e2-s1.py
+
 self.play(TransformInStages.from_copy(c2, d, **rt))
 ```
 is now only
 ```python
-# from projects/separable de/v2/example2/scene2.py
+# from projects/separable de/v2/example2/scene1.py
+
 self.derive(c2, d)
 ```
 because of
@@ -103,4 +105,4 @@ and `common` should be imported regardless wherever the `.py` project file is. T
 
 More specific usage instructions are written in the individual files.
 
-As a beginner, I can kinda understand how the helpers work by reading the code, but I am not yet at the level where I can create such on my own.
+As a beginner, I can kinda understand how the helpers work by reading the code, but I am not yet at the level where I can create such helpers on my own.
