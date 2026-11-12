@@ -5,6 +5,8 @@ build/
 dist/
 wheels/
 **/media/
+media-*/
+.vscode
 *.egg-info
 
 # Virtual environments
