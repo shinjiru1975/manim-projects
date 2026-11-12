@@ -8,6 +8,7 @@ wheels/
 media-*/
 .vscode
 *.egg-info
+.python-version
 
 # Virtual environments
 .venv
