@@ -1,7 +1,5 @@
-# The Project
-This Manim project for separable differential equations, and the initiative to learn Manim altogether, began on October 13, 2026.
-
-I originally planned it to have just one example showing the full steps from separation, integration, and simplification. I later decided to show two examples, but ditch the integration process altogether because: (1) this project is not really about integration, and I assume that my viewers already know basic integration, and (2) animating the entire integration process was time-consuming and took more of the video than the actual separation of variables.
+# The Original Project
+I originally planned the project to have just one example showing the full steps from separation, integration, and simplification. I later decided to show two examples, but ditch the integration process altogether because: (1) this project is not really about integration, and I assume that my viewers already know basic integration, and (2) animating the entire integration process was time-consuming and took more of the video than the actual separation of variables.
 
 # The Files
 - `example-separable.py` was the first overall attempt for Example 1 Scene 1. The classes were named `Separable1` all the way up to `Separable9` '(and an extra `Separable12`). The classes had the same animation goal; many classes existed so that each class is a working saved checkpoint, backup, or version. There is no longer anything in this file that was used for the final output.
