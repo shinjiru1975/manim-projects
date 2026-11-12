@@ -4,15 +4,27 @@ This folder contains the helpers I use for groups of animations I use in my proj
 ## Example Helpers
 What used to be
 ```python
+# from projects/separable de/original/e2-s1.py
 self.play(TransformInStages.from_copy(c2, d, **rt))
 ```
 is now only
 ```python
+# from projects/separable de/v2/example2/scene2.py
 self.derive(c2, d)
+```
+because of
+```python
+# from common/scene_base.py
+
+def derive(self, src, new, **kw):
+    self.play(TransformInStages.from_copy(src, new, **{**RT, **kw}))
+    return new
 ```
 
 More prominently, what used to be
 ```python
+# from projects/separable de/original/e2-s2.py
+
 wan_con_ph = phantom(wan_con)
 x_sub = Term(wan_con_ph, tu, paren=True)
 
@@ -35,6 +47,8 @@ self.add(h1)
 ```
 is now only
 ```python
+# from projects/separable de/v2/example2/scene2.py
+
 i, i_parts = self.substitute(
     h,
     lambda f: [
@@ -45,6 +59,38 @@ i, i_parts = self.substitute(
     [z_con, z_con], color=Y_COLOR
 )
 ```
+because of
+```python
+# from common/scene_base.py
+
+def substitute(self, old, build, sources, color=None, **kw):
+    kw = {**RT, **kw}
+    center  = old.get_center().copy()
+    ghosts  = [phantom(s) for s in sources]
+    new_ph  = MathTex(*build(ghosts)).move_to(center)
+    targets = [g.get_center().copy() for g in ghosts]
+    fliers  = [s.copy() for s in sources]
+
+    moves = [
+        f.animate.move_to(t).set_color(color) if color is not None
+        else f.animate.move_to(t)
+        for f, t in zip(fliers, targets)
+    ]
+    
+    self.play(
+        TransformInStages.replacement_transform(old, new_ph, **kw),
+        *moves,
+        **kw
+    )
+
+    self.remove(new_ph, *fliers)
+
+    parts = build(fliers)                      
+    solid = MathTex(*parts).move_to(center)
+    self.add(solid)
+    return solid, parts
+```
+doing all the heavy code-work.
 
 These helpers were created by Claude after I asked it to look for animations groups and sequences I use the most. Claude created these helpers with `def` to define function.
 

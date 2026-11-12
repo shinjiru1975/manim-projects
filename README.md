@@ -12,6 +12,6 @@ My comeback game plan was to livestream myself teaching engineering math on [Tik
 
 I have been doing this livestreaming thing for a while, so I thought that it might be time to create videos as well, in the same hopeful manner as how 3Blue1Brown makes his.
 
-Despite my college program, I have very little experience with programming, so this was a challenging yet fun hobby to do at my leisure.
+Despite my college program, I have very little experience with programming, which makes Manim a challenging yet fun and interesting hobby to do at my leisure.
 
 I use VS Code as my IDE.

@@ -13,15 +13,19 @@ Among these helpers are:
 ## Examples
 What used to be
 ```python
+# from original/e2-s1.py
 self.play(TransformInStages.from_copy(c2, d, **rt))
 ```
 is now only
 ```python
+# from v2/example2/scene2.py
 self.derive(c2, d)
 ```
 
 More prominently, what used to be
 ```python
+# from original/e2-s2.py
+
 wan_con_ph = phantom(wan_con)
 x_sub = Term(wan_con_ph, tu, paren=True)
 
@@ -44,6 +48,8 @@ self.add(h1)
 ```
 is now only
 ```python
+# from v2/example2/scene2.py
+
 i, i_parts = self.substitute(
     h,
     lambda f: [

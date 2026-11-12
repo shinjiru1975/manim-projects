@@ -39,8 +39,6 @@ def cancel_slash_multiple(terms_group, color=RED, stroke_width=2):
         lines.add(VGroup(slash1, slash2))
     return lines
 
-
-
 def answer_box(ans, color=ANSWER_COLOR, buff=0.2):
     """Pink box around a final answer."""
     return SurroundingRectangle(ans, color=color, buff=buff).move_to(ans)
