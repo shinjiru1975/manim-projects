@@ -1,2 +1,0 @@
-# This file records the segment order used by Manim.
-file 'file:c:/Users/Kamote/manimations/media/videos/first-manim/1080p60/partial_movie_files/CreateCircle/f8963dab7784da7d51b81d0c1a228834430d0ab43f329957c6dd6e8265b5fc28.mp4'

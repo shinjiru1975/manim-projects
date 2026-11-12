@@ -1,7 +1,0 @@
-# This file records the segment order used by Manim.
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable-reactive/1080p60/partial_movie_files/Separable14/4da0cb7f36c07e90e94c6839fbff09a69b05166444888f15071670ccf278c89b.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable-reactive/1080p60/partial_movie_files/Separable14/2ab0c411dc2b931233d0234f258b81bec3f1d14453c56cfe4784589c6d924490.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable-reactive/1080p60/partial_movie_files/Separable14/72027cbd6460ac63adab63dc09c5c92c435fa5365bccb98b96ed48e7fbe94b55.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable-reactive/1080p60/partial_movie_files/Separable14/dc7d2b0e8b61b2a9a3cb24393fc40dfcb350164d7a6fd5df3f34004ca97cfa9b.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable-reactive/1080p60/partial_movie_files/Separable14/ee2d6249275bb06986373fc5cc469f8b5fff535ef90c3c0a96749728d46a0427.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable-reactive/1080p60/partial_movie_files/Separable14/5dcaf671898f471e2d7eb93caba9952428f9c4bcfa559cb4ee56cbce85f2d55a.mp4'

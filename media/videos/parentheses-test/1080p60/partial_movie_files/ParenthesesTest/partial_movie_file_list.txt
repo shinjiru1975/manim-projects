@@ -1,3 +1,0 @@
-# This file records the segment order used by Manim.
-file 'file:c:/Users/Kamote/manimations/media/videos/parentheses-test/1080p60/partial_movie_files/ParenthesesTest/d603fd2f9a5f2a450fb878fad0f767fd0c3793896b721f5b98a4ef79925c54c7.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/parentheses-test/1080p60/partial_movie_files/ParenthesesTest/373694d69fbe282a4b3b90cf2a6579ad3d9da207487342d6cc9790377db53426.mp4'

@@ -1,4 +1,0 @@
-# This file records the segment order used by Manim.
-file 'file:c:/Users/Kamote/manimations/media/videos/duplicate-test/1080p60/partial_movie_files/SpawnDuplicate/ee64073bf4b7d17c1a3ae0535b9a7353a37937c1ed23863b28bbacc6d3a6659c.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/duplicate-test/1080p60/partial_movie_files/SpawnDuplicate/1f38222ae7351fab0983ecd05d366147d39e96bbc314e7de4cb6654148731cdf.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/duplicate-test/1080p60/partial_movie_files/SpawnDuplicate/f8deaf68e915c0f66d5e7a025ebd0ae623d61c16ab0866e64e42ce05c4ea4cec.mp4'

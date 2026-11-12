@@ -1,7 +1,0 @@
-# This file records the segment order used by Manim.
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable5/279e7b623eedf75318b625ef762bb1d0a778db3fca37aea6be63be441818b767.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable5/cbec32b70923917dbb0c1121ca3d0e9f941db86c43b1c9aa8779869bf809feee.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable5/ff73966d8365dcb94ccd4877ffbdf93f87d9f903a764decdd4c770e4ab8a1860.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable5/77f2b28cd2559e5bac97affd37a05e058c8dcc698888a707ce46a2045bcf6ec9.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable5/85cc39d963ef4c92c764b8861bfad0429f588e5b446bb2bee3dce08ced0a6d92.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/Separable5/bbca8ad3534b41c980c5340487ea24289ef305fbddb82cfc0bfd2f554a5885df.mp4'

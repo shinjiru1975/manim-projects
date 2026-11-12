@@ -1,7 +1,0 @@
-# This file records the segment order used by Manim.
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/BoxEquationTerm/8f38e6621dd07f709f9a644ad5fd8a70b38f764620d76026691d9086be574354.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/BoxEquationTerm/a6cf98a1a7707f367806bbff2747ea4ee2bb42c53f794e7061a8e76899ac92ac.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/BoxEquationTerm/ca04a62f0f1a9da42f7e194e042493afc22ec29f8f5d8617c27ad73baec28d2c.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/BoxEquationTerm/db7d11a44d8ee14637e73aad46f0d30ff96e5479dd0fb141d11a745d98d94f2c.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/BoxEquationTerm/e58396d41d44e4ec6040f0c6c21f2826cc7cfcda556663bce01279fa2e775be8.mp4'
-file 'file:c:/Users/Kamote/manimations/media/videos/example-separable/1080p60/partial_movie_files/BoxEquationTerm/899a8b976f06772b6ee511d09537767ff244c0df556097cba611f3da89306ba2.mp4'
