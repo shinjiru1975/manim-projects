@@ -14,11 +14,13 @@ Among these helpers are:
 What used to be
 ```python
 # from original/e2-s1.py
+
 self.play(TransformInStages.from_copy(c2, d, **rt))
 ```
 is now only
 ```python
-# from v2/example2/scene2.py
+# from v2/example2/scene1.py
+
 self.derive(c2, d)
 ```
 
