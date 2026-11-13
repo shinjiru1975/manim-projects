@@ -6,10 +6,8 @@ from reactive_manim import *
 class Example2Scene1(DEScene):
     def construct(self):
         
-        S = Symbols()
-        x, y1, y2, wan, tu, z, p, mn, eq, dy, dx, sp, integ = S.unpack(
-            "x y1 y2 wan tu z p mn eq dy dx sp integ"
-        )
+        x, y1, y2, yp, wan, tu, z, p, mn, eq, dy, dx, sp, C, integ = make_symbols()
+        x_con, eq1_con, wan_con, comma, y_con, eq2_con, z_con, semi = make_conditions()
 
         # ---------  AnimA1: write equation  ---------
         paren = Parentheses([y1, p, wan])
@@ -24,8 +22,6 @@ class Example2Scene1(DEScene):
         self.play(Write(a), **RT)
 
         # ---------  AnimA2: x = 1, y = 0  ---------
-        x_con, eq1_con, wan_con, comma, y_con, eq2_con, z_con, semi = make_condition_parts()
-
         conditions = MathTex(
             sp, semi, sp, 
             x_con, eq1_con, wan_con, 

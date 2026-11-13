@@ -6,13 +6,11 @@ from reactive_manim import *
 class Example2Scene2(DEScene):
     def construct(self):
         
-        S = Symbols(colored=True)
-        x, y1, y2, wan, tu, z, p, mn, eq, dy, dx, sp, C = S.unpack(
-            "x y1 y2 wan tu z p mn eq dy dx sp C"
-        )
-        C.set_color(CONST_COLOR)
-        x_con, eq1_con, wan_con, comma, y_con, eq2_con, z_con, semi = make_condition_parts()
+        x, y1, y2, yp, wan, tu, z, p, mn, eq, dy, dx, sp, C, integ = make_symbols()
+        x_con, eq1_con, wan_con, comma, y_con, eq2_con, z_con, semi = make_conditions()
 
+        C.set_color(CONST_COLOR)
+        
         ln1 = Function(r"\ln", [y2, p, wan])
         ans = MathTex(
             Term(x, tu), 
@@ -26,7 +24,6 @@ class Example2Scene2(DEScene):
             y_con, eq2_con, z_con
         )
 
-        # lay out the top line with invisible slots, then place the real pieces in them
         g_ans_ph = phantom(ans)
         g_cond_ph = phantom(conds)
 

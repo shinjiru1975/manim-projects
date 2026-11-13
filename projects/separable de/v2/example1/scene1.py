@@ -6,10 +6,7 @@ from reactive_manim import *
 class Example1Scene1(DEScene):
     def construct(self):
 
-        S = Symbols()            
-        x, y1, yp, eq, wan, p, y2, tu, dy, dx, sp = S.unpack(
-            "x y1 yp eq wan p y2 tu dy dx sp"
-        )
+        x, y1, y2, yp, wan, tu, z, p, mn, eq, dy, dx, sp, C, integ = make_symbols()
 
         # ---------  AnimA: write the equation  ---------
         a = MathTex(

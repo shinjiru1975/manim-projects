@@ -6,10 +6,7 @@ from reactive_manim import *
 class Example1Scene2(DEScene):
     def construct(self):
 
-        S = Symbols()
-        x, y1, yp, eq, wan, p, y2, tu, dy, dx, sp, integ = S.unpack(
-            "x y1 yp eq wan p y2 tu dy dx sp integ"
-        )
+        x, y1, y2, yp, wan, tu, z, p, mn, eq, dy, dx, sp, C, integ = make_symbols()
 
         r_paren = Parentheses([wan, p, Term(y2, tu)])
 
