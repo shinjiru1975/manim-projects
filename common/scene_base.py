@@ -15,8 +15,10 @@ class DEScene(Scene):
 
     # ---- the three transforms you use constantly -------------------------
     def morph(self, old, new, **kw):
+
         """Rewrite `old` into `new` in place (replacement_transform).
         Build `new` with .move_to(old) first.  Returns `new`."""
+        
         self.play(TransformInStages.replacement_transform(old, new, **{**RT, **kw}))
         return new
 
@@ -90,10 +92,6 @@ class DEScene(Scene):
         build   : fn(slot_contents) -> equation; MUST build fresh pieces each call
         sources : mobjects whose values fly in (repeat one for several slots)
         Returns the new solid equation -- always continue from the return value.
-
-        (In your Scene2Attempt3 this was defined INSIDE construct() but called as
-        self.substitute(...), which would raise AttributeError. As a method on
-        the base class it now works the way you called it.)
         """
         kw = {**RT, **kw}
         center  = old.get_center().copy()
@@ -117,6 +115,57 @@ class DEScene(Scene):
         self.remove(new_ph, *fliers)
 
         parts = build(fliers)                       # the real pieces, kept for the next stage
+        solid = MathTex(*parts).move_to(center)
+        self.add(solid)
+        return solid, parts
+    
+    def write_substitute(self, build, sources, buff=ORIGIN, color=None, write_time=1, **kw):
+        """
+        Write an equation with empty (phantom) slots, then fly copies of
+        `sources` into those slots.
+
+        build      : fn(slot_contents) -> list of pieces for the equation
+        sources    : ONE ENTRY PER SLOT. Each entry is either
+                       - a single mobject, or
+                       - a list of mobjects: ALL of them fly to that same slot.
+        at         : where the equation is written (default: screen center)
+        color      : optional color for the flying values
+        write_time : how many seconds the Write animation takes
+        Returns (solid, parts), same as `substitute`.
+        """
+        kw = {**RT, **kw}
+
+        # Make every entry a list, so single and grouped entries look the same
+        groups = [list(e) if isinstance(e, (list, tuple)) else [e] for e in sources]
+
+        # One ghost per SLOT (shaped like the first member of its group)
+        ghosts  = [phantom(g[0]) for g in groups]
+        with_ph = MathTex(*build(ghosts)).move_to(buff)
+        center  = with_ph.get_center().copy()
+        targets = [gh.get_center().copy() for gh in ghosts]
+
+        # Copy EVERY member of every group, and send each to its group's slot
+        fliers = [[m.copy() for m in g] for g in groups]
+        moves = []
+        for group_fliers, t in zip(fliers, targets):
+            for f in group_fliers:
+                moves.append(
+                    f.animate.move_to(t).set_color(color) if color is not None
+                    else f.animate.move_to(t)
+                )
+
+        self.play(
+            Write(with_ph, run_time=write_time),
+            *moves, **kw,
+        )   
+
+        # The first flier of each group becomes the real piece;
+        # the others are identical and sit exactly on top of it, so drop them.
+        leaders = [gf[0] for gf in fliers]
+        extras  = [f for gf in fliers for f in gf[1:]]
+        self.remove(with_ph, *extras, *leaders)
+
+        parts = build(leaders)
         solid = MathTex(*parts).move_to(center)
         self.add(solid)
         return solid, parts
