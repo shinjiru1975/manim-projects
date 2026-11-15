@@ -52,16 +52,16 @@ class Example2Scene2(DEScene):
         # used self.substitute helper
         h, h_parts = self.substitute(
             ans_copy,
-            lambda f: [Term(f[0], tu, paren=True), g[0][1:7]],
+            lambda slot: [Term(slot[0], tu, paren=True), g[0][1:7]],
             [wan_con], color=X_COLOR
         )
         
         #  ---------  AnimI: y = 0 flies into both y's  ---------
         i, i_parts = self.substitute(
             h,
-            lambda f: [
-                h_parts[0], eq, Parentheses(f[0]), mn,
-                Function(ln1.function, [Parentheses(f[1]), p, wan], paren=ln1.paren),
+            lambda slot: [
+                h_parts[0], eq, Parentheses(slot[0]), mn,
+                Function(ln1.function, [Parentheses(slot[1]), p, wan], paren=ln1.paren),
                 g[0][5:7]
             ],
             [z_con, z_con], color=Y_COLOR
