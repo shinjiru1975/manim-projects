@@ -6,8 +6,8 @@ from reactive_manim import *
 class Example2Scene2(DEScene):
     def construct(self):
         
-        x, y1, y2, yp, wan, tu, z, p, mn, eq, dy, dx, sp, C, integ = make_symbols()
-        x_con, eq1_con, wan_con, comma, y_con, eq2_con, z_con, semi = make_conditions()
+        x, y1, y2, yp, wan, tu, z, p, mn, eq, dy, dx, sp, C, integ = symbols_main()
+        x_con, eq1_con, wan_con, comma, y_con, eq2_con, z_con, semi = symbols_introduction()
 
         C.set_color(CONST_COLOR)
         
