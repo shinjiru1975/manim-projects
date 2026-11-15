@@ -171,8 +171,9 @@ class DEScene(Scene):
                 )
 
         self.play(
-            Write(with_ph, run_time=write_time),
-            *moves, **kw,
+            Write(with_ph),
+            *moves, 
+            run_time=write_time,
         )   
 
         # The first flier of each group becomes the real piece;

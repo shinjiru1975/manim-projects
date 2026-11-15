@@ -18,12 +18,11 @@ class Introduction(DEScene):
             z
         )
 
-        self.play(Write(a), **RT)
+        self.play(Write(a), run_time=2)
 
         # ---------  AnimB: separated variables  ---------
         self.play(
-            a.animate.shift(UP * 0.5),
-            **RT
+            a.animate.shift(UP * 0.5)
         )
 
         b, parts = self.write_substitute(
@@ -33,11 +32,11 @@ class Introduction(DEScene):
                 z
             ],
             [
-                [mxy.input[0], nxy.input[0]],   # slot 0 (inside f): the x from M and the x from N
-                [mxy.input[2], nxy.input[2]],   # slot 1 (inside g): the y from M and the y from N
+                [mxy.input[0], nxy.input[0]],   
+                [mxy.input[2], nxy.input[2]],   
             ],
             buff=DOWN * 0.5,
-            write_time=1.5
+            write_time=2
         )
 
         self.wait()
