@@ -20,22 +20,24 @@ class Introduction(DEScene):
 
         self.play(Write(a), **RT)
 
-        # ---------  AnimB: write equation  ---------
-        fx = Function(f, x)
-        gy = Function(g, y)
-
-        b = MathTex(
-            fx, sp, dx, p, gy, sp, dy, 
-            eq, 
-            z
-        )
-
+        # ---------  AnimB: separated variables  ---------
         self.play(
             a.animate.shift(UP * 0.5),
             **RT
         )
 
-        b.next_to(a, DOWN, buff=0.5)
-        self.play(Write(b), **RT)
+        b, parts = self.write_substitute(
+            lambda slot: [
+                Function(f, slot[0]), sp, dx, p, Function(g, slot[1]), sp, dy,
+                eq,
+                z
+            ],
+            [
+                [mxy.input[0], nxy.input[0]],   # slot 0 (inside f): the x from M and the x from N
+                [mxy.input[2], nxy.input[2]],   # slot 1 (inside g): the y from M and the y from N
+            ],
+            buff=DOWN * 0.5,
+            write_time=1.5
+        )
 
         self.wait()
