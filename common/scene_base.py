@@ -23,17 +23,21 @@ class DEScene(Scene):
         return new
 
     def derive(self, src, new, **kw):
+
         """Keep `src` on screen, grow `new` out of a copy of it (from_copy).
         Build `new` with .next_to(src, DOWN, ...) first.  Returns `new`."""
+
         self.play(TransformInStages.from_copy(src, new, **{**RT, **kw}))
         return new
 
     def copy_down(self, old, new, shift=ORIGIN, **kw):
+
         """The 'copy the line down, then rewrite the copy' pattern:
              TransformFromCopy(old -> copy at new's spot), then
              replacement_transform(copy -> new).
         Build `new` with .next_to(old, DOWN, ...) first.  Returns `new`.
         `shift` nudges the copy (your old `.shift(RIGHT * 1.75)`)."""
+
         kw = {**RT, **kw}
         old_copy = old.copy().move_to(new).shift(shift)
         self.play(TransformFromCopy(old, old_copy, **kw))
@@ -42,6 +46,7 @@ class DEScene(Scene):
 
     # ---- the 'arrow -> boxed answer' ending ------------------------------
     def reveal_answer(self, old, kept, ans, sp, **kw):
+
         """
         old  : equation on screen          (e.g. the integrated line `e`)
         kept : the SAME pieces as a list   (e.g. [l_int, eq, r_int])
@@ -50,6 +55,7 @@ class DEScene(Scene):
         Slides `old` left, writes  ->  ans  and a pink box.
         Returns (new_equation, ans, box).
         """
+
         kw = {**RT, **kw}
         arrow = MathTex(sp, r"\rightarrow", sp)
         ans_ph, arrow_ph = phantom(ans), phantom(arrow)
@@ -69,23 +75,30 @@ class DEScene(Scene):
         return new, ans, box
 
     def caption(self, text, under, scale=0.7, buff=0.4, **kw):
+
         """Write a word label (e.g. 'general solution') under a mobject."""
+
         label = word_label(text, under, buff=buff, scale=scale)
         self.play(DrawBorderThenFill(label), **{**RT, **kw})
         return label
 
     # ---- housekeeping ------------------------------------------------------
     def clear_all(self, **kw):
+
         """Fade out everything on screen."""
+
         self.play(*[FadeOut(m) for m in self.mobjects], **{**RT, **kw})
 
     def clear_except(self, *keep, **kw):
+
         """Fade out everything on screen except the mobjects in `keep`."""
+
         fade = [m for m in self.mobjects if m not in keep]
         self.play(*[FadeOut(m) for m in fade], **{**RT, **kw})
 
     # ---- your own `substitute` idea, promoted to a real method ------------
     def substitute(self, old, build, sources, color=None, **kw):
+
         """
         Fly copies of `sources` into slots of a new equation.
         old     : solid equation currently on screen
@@ -93,6 +106,7 @@ class DEScene(Scene):
         sources : mobjects whose values fly in (repeat one for several slots)
         Returns the new solid equation -- always continue from the return value.
         """
+
         kw = {**RT, **kw}
         center  = old.get_center().copy()
         ghosts  = [phantom(s) for s in sources]
@@ -120,6 +134,7 @@ class DEScene(Scene):
         return solid, parts
     
     def write_substitute(self, build, sources, buff=ORIGIN, color=None, write_time=1, **kw):
+
         """
         Write an equation with empty (phantom) slots, then fly copies of
         `sources` into those slots.
@@ -133,6 +148,7 @@ class DEScene(Scene):
         write_time : how many seconds the Write animation takes
         Returns (solid, parts), same as `substitute`.
         """
+        
         kw = {**RT, **kw}
 
         # Make every entry a list, so single and grouped entries look the same
